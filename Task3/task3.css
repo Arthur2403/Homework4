@@ -1,0 +1,58 @@
+body{
+    color: #ffffff;
+}
+header{
+    height: 50px;
+    width: 389px;
+    background-color: rgb(144, 33, 33);
+}
+menu{
+    height: 25px;
+    width: 349px;
+    background-color: rgb(123, 27, 27);
+}
+#one{
+    padding: 15px 30px 15px 15px;
+    height: 50px;
+    width: 70px;
+    background-color: palevioletred;
+    display: inline-block;
+}
+#two{
+    padding: 15px 30px 15px 15px;
+    height: 50px;
+    width: 70px;
+    background-color: palevioletred;
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 8px;
+}
+main{
+    text-align: center;
+    height: 165px;
+    width: 150px;
+    display: inline-block;
+    background-color: palevioletred;
+    position: absolute;
+    left: 140px;
+}
+#three{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    height: 50px;
+    width: 115px;
+    display: inline-block;
+    background-color: palevioletred;
+    position: absolute;
+    top: 128px;
+    rotate: 90deg;
+    left: 290px;
+}
+footer{
+    height: 25px;
+    width: 389px;
+    background-color: rgb(51, 21, 21);
+    position: absolute;
+    top: 300px;
+}

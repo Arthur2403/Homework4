@@ -1,0 +1,67 @@
+#Main{
+    height: 300px;
+    width: 1300px;
+    background-color: rgb(26, 85, 65);
+}
+#bottom{
+    margin: 0 auto;
+    height: 200px;
+    width: 1000px;
+    border-bottom: 1px solid white;
+}
+#firstcolumn{
+    width: 30px;
+    position: absolute;
+    top: 125px;
+}
+#secondcolumn{
+    width: 130px;
+    position: absolute;
+    top: 125px;
+    left: 350px;
+}
+p{
+    margin: 0px;
+}
+#pictures{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left: 725px;
+    top: 100px;
+    
+}
+#Fb{
+    height: 64px;
+    width: 64px;
+    background-image: url('./Items/fb_gray.png');
+    display: inline-block;
+    margin: 15px;
+}
+#Insta{
+    height: 64px;
+    width: 64px;
+    background-image: url('./Items/insta_gray.png');
+    display: inline-block;
+    margin: 15px;
+
+}#Youtube{
+    height: 64px;
+    width: 64px;
+    background-image: url('./Items/youtube_gray.png');
+    display: inline-block;
+    margin: 15px;
+}
+
+#Fb:hover{
+    background-image: url('./Items/fb.png');
+}
+#Insta:hover{
+    background-image: url('./Items/insta.png');
+}
+#Youtube:hover{
+    background-image: url('./Items/youtube.png');
+}
+#Copyright{
+    text-align: center;
+}
